@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "bilibiliTimeLine",
+    "version": "1.1",
+    "description": "为Bilibili视频添加时间轴",
+    // "browser_action": {
+    //     "default_popup": "dist/index.html",
+    //     "default_icon": "hello_extensions.png"
+    // },
+    // "icons": {
+    //     "48": "icons/border-48.png"
+    // },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.bilibili.com/video/*"
+            ],
+            "js": [
+                "index.js"
+            ]
+        }
+    ]
+}
