@@ -1,0 +1,20 @@
+:root {
+	--time-line-color: red;
+	--time-line-width: 4px;
+	--time-line-height: 8px;
+}
+
+.abps {
+	height: var(--time-line-height);
+	display: flex;
+	position: absolute;
+	width: 100%;
+	left: 0;
+}
+
+[class^="abps-sub-"] {
+	width: var(--time-line-width);
+	height: var(--time-line-height);
+	background-color: var(--time-line-color);
+	border-radius: 5px;
+}
