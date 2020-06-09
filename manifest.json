@@ -19,7 +19,8 @@
     "content_scripts": [
         {
             "matches": [
-                "*://*.bilibili.com/video/*"
+                "*://*.bilibili.com/video/*",
+                "*://*.bilibili.com/bangumi/*"
             ],
             "js": [
                 "src/index.js"
