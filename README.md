@@ -9,13 +9,13 @@
 
 [火狐插件市场下载](https://addons.mozilla.org/zh-CN/firefox/addon/bilibilitimeline/)
 
-<s>谷歌插件市场</s>
+[谷歌/火狐 压缩包下载](https://github.com/abpsx/bilibiliTimeLine/releases)
 
 [时间格式生成工具 - 开发中](https://www.abps.group/cloudApp/timelinebuilder)
 
 支持的页面类型
 
-> _.bilibili.com/[\$url](#$url)/_
+> _.bilibili.com/[\$url](#url)/_
 
 支持三种提交时间轴方案
 
@@ -67,7 +67,7 @@ $over
 3. 请回车换行后在粘贴/填写时间轴格式
 ```
 
-## 进度[9 + 2 / 11]
+## 进度[9 / 11 - 2]
 
 ### 基本功能
 
@@ -94,7 +94,7 @@ $over
 - [ ] 时间轴样式自定义
 - [ ] 设置页
 
-### \$url
+### url
 
 - video
 - bangumi
